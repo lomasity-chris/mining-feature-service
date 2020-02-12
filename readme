@@ -1,5 +1,5 @@
-Mining Feature Service
-======================
+Mining Feature Service Version 2
+================================
 
 Maven
 =====
@@ -22,9 +22,9 @@ Run
 1. From the command line, go to the target folder that contains the jar file using the following command
    cd ./target
 2. Issue the following command to run the service
-   java -jar MiningFeatureService-0.0.1-SNAPSHOT.jar
+   java -jar MiningFeatureService-0.0.2-SNAPSHOT.jar
    
-The mines found within the required boundary will be listed 
+The mines and claims found within the required boundaries will be listed 
 
 
 
