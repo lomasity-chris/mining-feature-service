@@ -1,0 +1,31 @@
+Mining Feature Service
+======================
+
+Maven
+=====
+
+The service is built using maven so a prerequisite to building is to have maven installed on your machine.
+Maven installation instructions can be found here: http://maven.apache.org/install.html
+
+Build
+=====
+ 
+1. Unzip the mining-feature-service.zip file to a preferred folder
+2. From the command line run following maven command in the same folder
+   mvn clean package  
+
+This will create the jar file in the target folder
+
+Run
+===
+
+1. From the command line, go to the target folder that contains the jar file using the following command
+   cd ./target
+2. Issue the following command to run the service
+   java -jar MiningFeatureService-0.0.1-SNAPSHOT.jar
+   
+The mines found within the required boundary will be listed 
+
+
+
+
